@@ -1,0 +1,220 @@
+
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Es Krim Lezat</title>
+
+  <!-- Menghubungkan font Poppins dan CSS -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <h1>ES KRIM LEZAT</h1>
+    <p><em>Nikmatnya Es Krim Cone dalam Setiap Gigitan!</em></p>
+
+    <nav>
+      <a href="#tentang">Tentang</a> |
+      <a href="#produk">Produk</a> |
+      <a href="#kontak">Kontak</a> |
+      <a href="#lokasi">Lokasi</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- BAGIAN TENTANG -->
+    <section id="tentang">
+      <h2>Tentang Kami</h2>
+
+      <p>
+        Es Krim Lezat adalah usaha yang menyediakan es krim
+        cone dengan berbagai pilihan rasa yang lezat dan
+        menyegarkan. Kami menghadirkan es krim berkualitas
+        dengan harga terjangkau yang cocok dinikmati oleh
+        semua kalangan.
+        <strong>Nikmati kesegaran di setiap gigitan!</strong>
+      </p>
+
+      <img src="img/3 es krim.png"
+      alt="Es Krim Lezat dengan Cone" width="300">
+
+      <h3>Mengapa Memilih Kami?</h3>
+      <ul>
+        <li>Memiliki rasa yang lezat dan menyegarkan</li>
+        <li>Menggunakan cone yang renyah</li>
+        <li>Harga terjangkau untuk semua kalangan</li>
+        <li>Tersedia tiga pilihan varian rasa</li>
+      </ul>
+
+      <h3>Informasi Pemesanan</h3>
+      <ol>
+        <li>Pilih varian es krim favorit Anda</li>
+        <li>Hubungi kami melalui WhatsApp</li>
+        <li>Lakukan pemesanan</li>
+        <li>Nikmati es krim lezat kami</li>
+      </ol>
+    </section>
+
+    <!-- BAGIAN PRODUK -->
+    <section id="produk">
+      <h2>Menu Es Krim Lezat</h2>
+
+      <p>
+        Tersedia tiga varian rasa es krim cone yang lezat
+        dengan harga ramah di kantong.
+      </p>
+
+      <table>
+        <thead>
+          <tr>
+            <th>No</th>
+            <th>Nama Produk</th>
+            <th>Varian Rasa</th>
+            <th>Harga</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Es Krim Cone</td>
+            <td>Vanilla</td>
+            <td>Rp8.000</td>
+          </tr>
+
+          <tr>
+            <td>2</td>
+            <td>Es Krim Cone</td>
+            <td>Cokelat</td>
+            <td>Rp10.000</td>
+          </tr>
+
+          <tr>
+            <td>3</td>
+            <td>Es Krim Cone</td>
+            <td>Strawberry</td>
+            <td>Rp10.000</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3>Pilihan Varian Rasa</h3>
+
+      <!-- VARIAN VANILLA -->
+      <div>
+        <h4>1. Es Krim Cone Vanilla</h4>
+        <img src="img/vanila.jpg"
+        alt="Es Krim Cone Vanilla" width="200">
+        <p>Rasa vanilla yang lembut, manis, dan creamy.</p>
+        <p><strong>Harga: Rp8.000</strong></p>
+      </div>
+
+      <!-- VARIAN COKELAT -->
+      <div>
+        <h4>2. Es Krim Cone Cokelat</h4>
+        <img src="img/coklat.jpg"
+        alt="Es Krim Cone Cokelat" width="200">
+        <p>Rasa cokelat yang manis dan kaya akan cita rasa.</p>
+        <p><strong>Harga: Rp10.000</strong></p>
+      </div>
+
+      <!-- VARIAN STRAWBERRY -->
+      <div>
+        <h4>3. Es Krim Cone Strawberry</h4>
+        <img src="img/stowbery.jpg"
+        alt="Es Krim Cone Strawberry" width="200">
+        <p>Rasa strawberry yang manis dan menyegarkan.</p>
+        <p><strong>Harga: Rp10.000</strong></p>
+      </div>
+
+    </section>
+
+    <!-- BAGIAN KONTAK -->
+    <section id="kontak">
+      <h2>Hubungi Kami</h2>
+
+      <p>
+        Ingin menikmati es krim lezat?
+        Silakan hubungi kami untuk melakukan pemesanan.
+      </p>
+
+      <p>
+        <a class="tombol-wa"
+        href="https://wa.me/6285606199261?text=Halo,%20saya%20ingin%20memesan%20es%20krim"
+        target="_blank">
+        Pesan via WhatsApp
+        </a>
+      </p>
+
+      <form action="#" method="post">
+
+        <label for="nama">Nama</label><br>
+        <input type="text" id="nama" name="nama"
+        placeholder="Masukkan nama Anda" required><br><br>
+
+        <label for="wa">Nomor WhatsApp</label><br>
+        <input type="tel" id="wa" name="wa"
+        placeholder="0812..." required><br><br>
+
+        <label for="produk">Pilih Varian Es Krim</label><br>
+        <select id="produk" name="produk">
+          <option value="Vanilla">Vanilla - Rp8.000</option>
+          <option value="Cokelat">Cokelat - Rp10.000</option>
+          <option value="Strawberry">Strawberry - Rp10.000</option>
+        </select><br><br>
+
+        <label for="jumlah">Jumlah Pesanan</label><br>
+        <input type="number" id="jumlah" name="jumlah"
+        min="1" placeholder="Masukkan jumlah" required><br><br>
+
+        <label for="pesan">Pesan Tambahan</label><br>
+        <textarea id="pesan" name="pesan" rows="4"
+        placeholder="Tulis pesan Anda"></textarea><br><br>
+
+        <button type="submit">Kirim Pesanan</button>
+
+      </form>
+
+      <!-- BAGIAN LOKASI -->
+      <!-- BAGIAN LOKASI -->
+<section id="lokasi">
+  <h2>Lokasi Kami</h2>
+
+  <p>Temukan lokasi Es Krim Lezat di Universitas Amikom Purwokerto.</p>
+
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.60156148428!2d109.22857767591216!3d-7.398462272847075!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e655f072387fab9%3A0x269c1733d358d2b7!2sUniversitas%20Amikom%20Purwokerto%20-%20Gedung%20Utama!5e0!3m2!1sid!2sid!4v1795141870536!5m2!1sid!2sid"
+    width="100%"
+    height="450"
+    style="border:0;"
+    allowfullscreen=""
+    loading="lazy"
+    referrerpolicy="strict-origin-when-cross-origin">
+  </iframe>
+
+</section>
+
+        <p>
+          Temukan lokasi penjualan Es Krim Lezat.
+          Silakan hubungi kami untuk informasi lokasi
+          pemesanan.
+        </p>
+      </section>
+
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 Es Krim Lezat. Semua Hak Dilindungi.</p>
+    <p>Nikmatnya Es Krim Cone dalam Setiap Gigitan!</p>
+  </footer>
+
+</body>
+</html>
